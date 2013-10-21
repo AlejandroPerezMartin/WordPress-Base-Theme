@@ -1,7 +1,7 @@
-<?php
+<?php get_header(); ?>
 
-get_header();
-get_sidebar();
-get_footer();
+<?php get_template_part( 'loop', 'index' ); ?>
 
-?>
+<?php get_sidebar(); ?>
+
+<?php get_footer(); ?>
